@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ben10omniversemod",
+  "version": "1.0.0",
+  "name": "Ben 10 Omniverse Mod",
+  "description": "A Minecraft mod featuring the Ben 10 Omniverse",
+  "authors": ["Milyas Muhammad"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.milyasmuhammad306.ben10omniversemod.Ben10OmniverseMod"
+    ]
+  },
+  "mixins": [
+    "ben10omniversemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.26.40"
+  }
+}
